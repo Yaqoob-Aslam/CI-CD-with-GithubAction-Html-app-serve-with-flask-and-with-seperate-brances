@@ -1,4 +1,5 @@
 
+
 name: test cases
 
 on:
@@ -8,9 +9,9 @@ on:
   pull_request:
     branches:
       - 'main'
-jobs:
 
-build-test-cases:
+jobs:
+  testcase:
     strategy:
       matrix:
         python-version: [3.8]
