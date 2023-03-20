@@ -29,3 +29,4 @@ jobs:
         with:
           push: true
           tags: yaqoobaslam/template-render:${{ github.run_number }}
+
