@@ -10,7 +10,7 @@ on:
       - 'main'
 jobs:
 
-build-test-cases:
+  build-test-cases:
     strategy:
       matrix:
         python-version: [3.8]
